@@ -1,3 +1,4 @@
+
 # Laravel Frontend Study 🧠🎨
 
 > Projeto pessoal para documentar e praticar o aprendizado de frontend com Laravel, usando Blade, Tailwind CSS, Alpine.js e Vite.
@@ -12,8 +13,6 @@ Aprender frontend com Laravel de forma **guiada, prática e consciente**, aplica
 - Vite para build e hot reload no ambiente dev
 
 ## 🚀 Etapas do Estudo
-
-Checklist completo [aqui](#checklist-de-estudo).
 
 ## 🛠 Tecnologias Usadas
 
@@ -40,33 +39,33 @@ Progresso de estudo esperado:
 
 ## 🛠️ 0. Instalação do Projeto (Compreendendo cada passo)
 
-- [ ] Entender a diferença entre `laravel new` e `composer create-project`
-- [ ] Instalar Laravel via `composer create-project laravel/laravel front-laravel`
-- [ ] Explicar o que é o `.env` e como ele configura o ambiente
-- [ ] Rodar `php artisan serve` e entender o que o Artisan faz
-- [ ] Ver o projeto rodando em `http://localhost:8000`
-- [ ] Configurar o banco (mesmo que ainda não vá usar) para praticar `.env`
-- [ ] Instalar dependências via `npm install` (entender o que é o `package.json`)
-- [ ] Rodar `npm run dev` e entender o papel do Vite no frontend
-- [ ] Confirmar que o Vite está injetando o CSS e JS com HMR
+- [x] Entender a diferença entre `laravel new` e `composer create-project`
+- [x] Instalar Laravel via `composer create-project laravel/laravel front-laravel`
+- [x] Explicar o que é o `.env` e como ele configura o ambiente
+- [x] Rodar `php artisan serve` e entender o que o Artisan faz
+- [x] Ver o projeto rodando em `http://localhost:8000`
+- [x] Configurar o banco (mesmo que ainda não vá usar) para praticar `.env`
+- [x] Instalar dependências via `npm install` (entender o que é o `package.json`)
+- [x] Rodar `npm run dev` e entender o papel do Vite no frontend
+- [x] Confirmar que o Vite está injetando o CSS e JS com HMR
 
 ---
 
 ## 📁 1. Estrutura do Frontend no Laravel (Blade e Views)
 
-- [ ] Entender o que é o Blade e por que ele existe
-- [ ] Compreender a função do `resources/views`
-- [ ] Criar um layout base com `@extends` e `@section`
-- [ ] Explicar o que é e como usar o `@yield`
-- [ ] Criar um layout real com cabeçalho, conteúdo e rodapé reutilizáveis
-- [ ] Criar uma view estendida a partir do layout
+- [x] Entender o que é o Blade e por que ele existe
+- [x] Compreender a função do `resources/views`
+- [x] Criar um layout base com `@extends` e `@section`
+- [x] Explicar o que é e como usar o `@yield`
+- [x] Criar um layout real com cabeçalho, conteúdo e rodapé reutilizáveis
+- [x] Criar uma view estendida a partir do layout
 - [ ] Entender e aplicar o `@include` para componentes reutilizáveis
 
 ---
 
 ## 🎨 2. Estilização com Tailwind CSS
 
-- [ ] Por que Tailwind é usado em projetos Laravel modernos
+- [x] Por que Tailwind é usado em projetos Laravel modernos
 - [ ] Como Tailwind funciona por trás (PostCSS, purge etc.)
 - [ ] Ver onde Tailwind está configurado (`tailwind.config.js`)
 - [ ] Criar uma página com espaçamento, cores e tipografia usando Tailwind
@@ -92,7 +91,7 @@ Progresso de estudo esperado:
 
 ## 🚀 4. Vite no Laravel
 
-- [ ] O que é Vite e por que substituiu o Mix
+- [x] O que é Vite e por que substituiu o Mix
 - [ ] Como o Vite integra com Laravel (`vite.config.js`, `@vite`)
 - [ ] Explicar o uso de `@vite('resources/css/app.css')`
 - [ ] Configurar o Vite pra Tailwind e JS
@@ -121,7 +120,6 @@ Progresso de estudo esperado:
 - [ ] Criar uma tela de login visual (sem backend ainda)
 - [ ] Criar uma página de dashboard visual com cards dinâmicos
 - [ ] Simular loading com Alpine + Tailwind
-
 
 ---
 
